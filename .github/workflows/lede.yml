@@ -10,10 +10,10 @@ name:  LEDE
 
 on:
   repository_dispatch:
-  schedule:
-    - cron: 0 20 * * 2,4,6,0
-  watch:
-    types: started
+#  schedule:
+#    - cron: 0 20 * * 2,4,6,0
+#  watch:
+#    types: started
     
   workflow_dispatch:
     inputs:
